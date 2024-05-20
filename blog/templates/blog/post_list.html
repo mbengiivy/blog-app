@@ -1,6 +1,9 @@
-<header>
+<html>
+    <header>
     <h1><a href="/">Django Girls Blog</a> </h1>
 </header>
+
+<body>
 
 {% for post in posts %}
     <article>
@@ -9,3 +12,5 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </article>
 {% endfor %}
+</body>
+</html>
