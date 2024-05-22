@@ -31,3 +31,17 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 *.code-workspace
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.py text
+*.html text
+*.css text
+*.js text
+
+# Declare binary files to be preserved untouched.
+*.jpg binary
+*.png binary
+*.ico binary
